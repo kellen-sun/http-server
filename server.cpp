@@ -2,6 +2,6 @@
 using namespace http;
 
 int main() {
-    TcpServer server = TcpServer();
+    TcpServer server = TcpServer("", 0);
     return 0;
 }
